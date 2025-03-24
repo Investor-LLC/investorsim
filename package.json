@@ -1,0 +1,43 @@
+{
+  "name": "investsim.ru",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@gravity-ui/chartkit": "^6.0.1",
+    "@gravity-ui/components": "^4.0.1",
+    "@gravity-ui/dashkit": "^9.0.0",
+    "@gravity-ui/date-components": "^3.0.2",
+    "@gravity-ui/date-utils": "^2.5.6",
+    "@gravity-ui/i18n": "^1.7.0",
+    "@gravity-ui/icons": "^2.13.0",
+    "@gravity-ui/illustrations": "^2.1.0",
+    "@gravity-ui/navigation": "^3.3.2",
+    "@gravity-ui/table": "^1.9.0",
+    "@gravity-ui/uikit": "^7.6.0",
+    "ahooks": "^3.8.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router": "^7.4.0",
+    "usehooks-ts": "^3.1.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.23.0",
+    "@types/react": "^19.0.12",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react-swc": "^3.8.1",
+    "eslint": "^9.23.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^15.15.0",
+    "typescript": "~5.7.3",
+    "typescript-eslint": "^8.28.0",
+    "vite": "^6.2.3"
+  }
+}
